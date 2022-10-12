@@ -1,0 +1,1 @@
+{"version":3,"file":"assert-is-gtm-id.js","sourceRoot":"","sources":["../src/assert-is-gtm-id.ts"],"names":[],"mappings":";;;AAAA,gCAAgC;AACnB,QAAA,cAAc,GAAW,iBAAiB,CAAC;AAExD;;;;;;GAMG;AACH,SAAgB,aAAa,CAAC,EAAU;IACtC,IAAI,OAAO,EAAE,KAAK,QAAQ,IAAI,CAAC,sBAAc,CAAC,IAAI,CAAC,EAAE,CAAC,EAAE;QACtD,MAAM,IAAI,KAAK,CAAC,WAAW,EAAE,gBAAgB,CAAC,CAAC;KAChD;AACH,CAAC;AAJD,sCAIC"}
