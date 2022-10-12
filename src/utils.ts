@@ -23,6 +23,10 @@ export interface LoadScriptOptions {
    */
   queryParams?: GtmQueryParams;
   /**
+   * Script can be set to `type` to speed up page load
+   */
+  type?: string;
+  /**
    * Script can be set to `defer` to speed up page load at the cost of less accurate results (in case visitor leaves before script is loaded, which is unlikely but possible).
    */
   defer: boolean;
@@ -91,6 +95,10 @@ export function loadScript(
   script.async = !config.defer;
   // eslint-disable-next-line @typescript-eslint/prefer-nullish-coalescing
   script.defer = Boolean(config.defer || config.compatibility);
+
+  if(config.type) {
+    script.type = config.type;
+  }
 
   if (config.nonce) {
     script.nonce = config.nonce;
